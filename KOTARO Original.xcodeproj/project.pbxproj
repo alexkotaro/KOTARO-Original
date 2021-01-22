@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528996A525BB795700440214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A425BB795700440214 /* AppDelegate.swift */; };
+		528996A725BB795700440214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A625BB795700440214 /* SceneDelegate.swift */; };
+		528996A925BB795700440214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A825BB795700440214 /* ViewController.swift */; };
+		528996AC25BB795700440214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528996AA25BB795700440214 /* Main.storyboard */; };
+		528996AE25BB795900440214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528996AD25BB795900440214 /* Assets.xcassets */; };
+		528996B125BB795900440214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528996AF25BB795900440214 /* LaunchScreen.storyboard */; };
+		528996BC25BB795900440214 /* KOTARO_OriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996BB25BB795900440214 /* KOTARO_OriginalTests.swift */; };
+		528996C725BB795900440214 /* KOTARO_OriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996C625BB795900440214 /* KOTARO_OriginalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528996B825BB795900440214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5289969925BB795700440214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528996A025BB795700440214;
+			remoteInfo = "KOTARO Original";
+		};
+		528996C325BB795900440214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5289969925BB795700440214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528996A025BB795700440214;
+			remoteInfo = "KOTARO Original";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528996A125BB795700440214 /* KOTARO Original.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KOTARO Original.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528996A425BB795700440214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		528996A625BB795700440214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		528996A825BB795700440214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		528996AB25BB795700440214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528996AD25BB795900440214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528996B025BB795900440214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		528996B225BB795900440214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528996B725BB795900440214 /* KOTARO OriginalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KOTARO OriginalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528996BB25BB795900440214 /* KOTARO_OriginalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOTARO_OriginalTests.swift; sourceTree = "<group>"; };
+		528996BD25BB795900440214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528996C225BB795900440214 /* KOTARO OriginalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KOTARO OriginalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528996C625BB795900440214 /* KOTARO_OriginalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOTARO_OriginalUITests.swift; sourceTree = "<group>"; };
+		528996C825BB795900440214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5289969E25BB795700440214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996B425BB795900440214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996BF25BB795900440214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5289969825BB795700440214 = {
+			isa = PBXGroup;
+			children = (
+				528996A325BB795700440214 /* KOTARO Original */,
+				528996BA25BB795900440214 /* KOTARO OriginalTests */,
+				528996C525BB795900440214 /* KOTARO OriginalUITests */,
+				528996A225BB795700440214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528996A225BB795700440214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528996A125BB795700440214 /* KOTARO Original.app */,
+				528996B725BB795900440214 /* KOTARO OriginalTests.xctest */,
+				528996C225BB795900440214 /* KOTARO OriginalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528996A325BB795700440214 /* KOTARO Original */ = {
+			isa = PBXGroup;
+			children = (
+				528996A425BB795700440214 /* AppDelegate.swift */,
+				528996A625BB795700440214 /* SceneDelegate.swift */,
+				528996A825BB795700440214 /* ViewController.swift */,
+				528996AA25BB795700440214 /* Main.storyboard */,
+				528996AD25BB795900440214 /* Assets.xcassets */,
+				528996AF25BB795900440214 /* LaunchScreen.storyboard */,
+				528996B225BB795900440214 /* Info.plist */,
+			);
+			path = "KOTARO Original";
+			sourceTree = "<group>";
+		};
+		528996BA25BB795900440214 /* KOTARO OriginalTests */ = {
+			isa = PBXGroup;
+			children = (
+				528996BB25BB795900440214 /* KOTARO_OriginalTests.swift */,
+				528996BD25BB795900440214 /* Info.plist */,
+			);
+			path = "KOTARO OriginalTests";
+			sourceTree = "<group>";
+		};
+		528996C525BB795900440214 /* KOTARO OriginalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528996C625BB795900440214 /* KOTARO_OriginalUITests.swift */,
+				528996C825BB795900440214 /* Info.plist */,
+			);
+			path = "KOTARO OriginalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528996A025BB795700440214 /* KOTARO Original */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528996CB25BB795900440214 /* Build configuration list for PBXNativeTarget "KOTARO Original" */;
+			buildPhases = (
+				5289969D25BB795700440214 /* Sources */,
+				5289969E25BB795700440214 /* Frameworks */,
+				5289969F25BB795700440214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KOTARO Original";
+			productName = "KOTARO Original";
+			productReference = 528996A125BB795700440214 /* KOTARO Original.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528996B625BB795900440214 /* KOTARO OriginalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528996CE25BB795A00440214 /* Build configuration list for PBXNativeTarget "KOTARO OriginalTests" */;
+			buildPhases = (
+				528996B325BB795900440214 /* Sources */,
+				528996B425BB795900440214 /* Frameworks */,
+				528996B525BB795900440214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528996B925BB795900440214 /* PBXTargetDependency */,
+			);
+			name = "KOTARO OriginalTests";
+			productName = "KOTARO OriginalTests";
+			productReference = 528996B725BB795900440214 /* KOTARO OriginalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528996C125BB795900440214 /* KOTARO OriginalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528996D125BB795A00440214 /* Build configuration list for PBXNativeTarget "KOTARO OriginalUITests" */;
+			buildPhases = (
+				528996BE25BB795900440214 /* Sources */,
+				528996BF25BB795900440214 /* Frameworks */,
+				528996C025BB795900440214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528996C425BB795900440214 /* PBXTargetDependency */,
+			);
+			name = "KOTARO OriginalUITests";
+			productName = "KOTARO OriginalUITests";
+			productReference = 528996C225BB795900440214 /* KOTARO OriginalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5289969925BB795700440214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					528996A025BB795700440214 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					528996B625BB795900440214 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 528996A025BB795700440214;
+					};
+					528996C125BB795900440214 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 528996A025BB795700440214;
+					};
+				};
+			};
+			buildConfigurationList = 5289969C25BB795700440214 /* Build configuration list for PBXProject "KOTARO Original" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5289969825BB795700440214;
+			productRefGroup = 528996A225BB795700440214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528996A025BB795700440214 /* KOTARO Original */,
+				528996B625BB795900440214 /* KOTARO OriginalTests */,
+				528996C125BB795900440214 /* KOTARO OriginalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5289969F25BB795700440214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528996B125BB795900440214 /* LaunchScreen.storyboard in Resources */,
+				528996AE25BB795900440214 /* Assets.xcassets in Resources */,
+				528996AC25BB795700440214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996B525BB795900440214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996C025BB795900440214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5289969D25BB795700440214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528996A925BB795700440214 /* ViewController.swift in Sources */,
+				528996A525BB795700440214 /* AppDelegate.swift in Sources */,
+				528996A725BB795700440214 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996B325BB795900440214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528996BC25BB795900440214 /* KOTARO_OriginalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528996BE25BB795900440214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528996C725BB795900440214 /* KOTARO_OriginalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528996B925BB795900440214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528996A025BB795700440214 /* KOTARO Original */;
+			targetProxy = 528996B825BB795900440214 /* PBXContainerItemProxy */;
+		};
+		528996C425BB795900440214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528996A025BB795700440214 /* KOTARO Original */;
+			targetProxy = 528996C325BB795900440214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528996AA25BB795700440214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528996AB25BB795700440214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		528996AF25BB795900440214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528996B025BB795900440214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528996C925BB795900440214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528996CA25BB795900440214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528996CC25BB795900440214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO Original/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-Original";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528996CD25BB795900440214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO Original/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-Original";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528996CF25BB795A00440214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO OriginalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-OriginalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOTARO Original.app/KOTARO Original";
+			};
+			name = Debug;
+		};
+		528996D025BB795A00440214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO OriginalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-OriginalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOTARO Original.app/KOTARO Original";
+			};
+			name = Release;
+		};
+		528996D225BB795A00440214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO OriginalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-OriginalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KOTARO Original";
+			};
+			name = Debug;
+		};
+		528996D325BB795A00440214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KOTARO OriginalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Matsuda.koutarou.KOTARO-OriginalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KOTARO Original";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5289969C25BB795700440214 /* Build configuration list for PBXProject "KOTARO Original" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528996C925BB795900440214 /* Debug */,
+				528996CA25BB795900440214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528996CB25BB795900440214 /* Build configuration list for PBXNativeTarget "KOTARO Original" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528996CC25BB795900440214 /* Debug */,
+				528996CD25BB795900440214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528996CE25BB795A00440214 /* Build configuration list for PBXNativeTarget "KOTARO OriginalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528996CF25BB795A00440214 /* Debug */,
+				528996D025BB795A00440214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528996D125BB795A00440214 /* Build configuration list for PBXNativeTarget "KOTARO OriginalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528996D225BB795A00440214 /* Debug */,
+				528996D325BB795A00440214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5289969925BB795700440214 /* Project object */;
+}
