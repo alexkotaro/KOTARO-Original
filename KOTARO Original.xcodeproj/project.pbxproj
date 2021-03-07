@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5208AF9225D7843B00612921 /* MokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208AF9125D7843B00612921 /* MokuViewController.swift */; };
+		5208AF9725D7879F00612921 /* KinyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208AF9625D7879F00612921 /* KinyoViewController.swift */; };
+		52255B0225CF8E1D007CEDC6 /* MondayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255B0125CF8E1D007CEDC6 /* MondayViewController.swift */; };
+		52255B0725CF9130007CEDC6 /* TuesdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255B0625CF9130007CEDC6 /* TuesdayViewController.swift */; };
+		52255B0C25CFB717007CEDC6 /* WdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255B0B25CFB717007CEDC6 /* WdViewController.swift */; };
+		5244743725E061B3002AB794 /* TsukaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244743625E061B3002AB794 /* TsukaViewController.swift */; };
 		528996A525BB795700440214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A425BB795700440214 /* AppDelegate.swift */; };
 		528996A725BB795700440214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A625BB795700440214 /* SceneDelegate.swift */; };
 		528996A925BB795700440214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996A825BB795700440214 /* ViewController.swift */; };
@@ -15,6 +21,9 @@
 		528996B125BB795900440214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528996AF25BB795900440214 /* LaunchScreen.storyboard */; };
 		528996BC25BB795900440214 /* KOTARO_OriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996BB25BB795900440214 /* KOTARO_OriginalTests.swift */; };
 		528996C725BB795900440214 /* KOTARO_OriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528996C625BB795900440214 /* KOTARO_OriginalUITests.swift */; };
+		528996D825BB7D7F00440214 /* 勉強.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528996D725BB7D7F00440214 /* 勉強.jpg */; };
+		5290A49625D78EBE007C21CC /* DoyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290A49525D78EBE007C21CC /* DoyoViewController.swift */; };
+		5290A49B25D79396007C21CC /* NichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290A49A25D79396007C21CC /* NichViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5208AF9125D7843B00612921 /* MokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokuViewController.swift; sourceTree = "<group>"; };
+		5208AF9625D7879F00612921 /* KinyoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinyoViewController.swift; sourceTree = "<group>"; };
+		52255B0125CF8E1D007CEDC6 /* MondayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayViewController.swift; sourceTree = "<group>"; };
+		52255B0625CF9130007CEDC6 /* TuesdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuesdayViewController.swift; sourceTree = "<group>"; };
+		52255B0B25CFB717007CEDC6 /* WdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WdViewController.swift; sourceTree = "<group>"; };
+		5244743625E061B3002AB794 /* TsukaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsukaViewController.swift; sourceTree = "<group>"; };
 		528996A125BB795700440214 /* KOTARO Original.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KOTARO Original.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528996A425BB795700440214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528996A625BB795700440214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		528996C225BB795900440214 /* KOTARO OriginalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KOTARO OriginalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528996C625BB795900440214 /* KOTARO_OriginalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOTARO_OriginalUITests.swift; sourceTree = "<group>"; };
 		528996C825BB795900440214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528996D725BB7D7F00440214 /* 勉強.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "勉強.jpg"; sourceTree = "<group>"; };
+		5290A49525D78EBE007C21CC /* DoyoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoyoViewController.swift; sourceTree = "<group>"; };
+		5290A49A25D79396007C21CC /* NichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NichViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +118,21 @@
 			isa = PBXGroup;
 			children = (
 				528996A425BB795700440214 /* AppDelegate.swift */,
+				528996D725BB7D7F00440214 /* 勉強.jpg */,
 				528996A625BB795700440214 /* SceneDelegate.swift */,
 				528996A825BB795700440214 /* ViewController.swift */,
-				528996AA25BB795700440214 /* Main.storyboard */,
 				528996AD25BB795900440214 /* Assets.xcassets */,
+				528996AA25BB795700440214 /* Main.storyboard */,
 				528996AF25BB795900440214 /* LaunchScreen.storyboard */,
 				528996B225BB795900440214 /* Info.plist */,
+				52255B0125CF8E1D007CEDC6 /* MondayViewController.swift */,
+				52255B0625CF9130007CEDC6 /* TuesdayViewController.swift */,
+				52255B0B25CFB717007CEDC6 /* WdViewController.swift */,
+				5208AF9125D7843B00612921 /* MokuViewController.swift */,
+				5208AF9625D7879F00612921 /* KinyoViewController.swift */,
+				5290A49525D78EBE007C21CC /* DoyoViewController.swift */,
+				5290A49A25D79396007C21CC /* NichViewController.swift */,
+				5244743625E061B3002AB794 /* TsukaViewController.swift */,
 			);
 			path = "KOTARO Original";
 			sourceTree = "<group>";
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528996B125BB795900440214 /* LaunchScreen.storyboard in Resources */,
+				528996D825BB7D7F00440214 /* 勉強.jpg in Resources */,
 				528996AE25BB795900440214 /* Assets.xcassets in Resources */,
 				528996AC25BB795700440214 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52255B0225CF8E1D007CEDC6 /* MondayViewController.swift in Sources */,
+				52255B0C25CFB717007CEDC6 /* WdViewController.swift in Sources */,
+				52255B0725CF9130007CEDC6 /* TuesdayViewController.swift in Sources */,
+				5208AF9225D7843B00612921 /* MokuViewController.swift in Sources */,
 				528996A925BB795700440214 /* ViewController.swift in Sources */,
+				5208AF9725D7879F00612921 /* KinyoViewController.swift in Sources */,
+				5244743725E061B3002AB794 /* TsukaViewController.swift in Sources */,
+				5290A49B25D79396007C21CC /* NichViewController.swift in Sources */,
 				528996A525BB795700440214 /* AppDelegate.swift in Sources */,
+				5290A49625D78EBE007C21CC /* DoyoViewController.swift in Sources */,
 				528996A725BB795700440214 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
