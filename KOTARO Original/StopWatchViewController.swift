@@ -8,6 +8,7 @@
 import UIKit
 
 class StopWatchViewController: UIViewController, backgroundTimerDelegate {
+    
         
     
     
@@ -16,18 +17,20 @@ class StopWatchViewController: UIViewController, backgroundTimerDelegate {
     var judge: Bool = false
     @IBOutlet var label: UILabel!
     
-    var count: Int = 0
+    var count: Float = 0
     
-    var timer: Timer! = Timer()
+    var timer: Timer = Timer()
     var saveData: UserDefaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
 
-        label.text = saveData.object(forKey: "time") as? String
-        
+
+        count = saveData.float(forKey: "time")
         // Do any additional setup after loading the view.
+        label.text = String(count)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,7 +40,7 @@ class StopWatchViewController: UIViewController, backgroundTimerDelegate {
 
     @objc func up() {
         //countを0.01足す
-        count = count + 1
+        count = count + 0.01
         //ラベルに小数点以下2桁まで表示
         label.text = String(format: "%.2f", count)
     }
@@ -46,7 +49,7 @@ class StopWatchViewController: UIViewController, backgroundTimerDelegate {
         
         if !timer.isValid {
             //タイマーが動作してなかったら動かす
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
                                          judge = true
 
         }
@@ -76,30 +79,38 @@ class StopWatchViewController: UIViewController, backgroundTimerDelegate {
         }
         count = 0
                     label.text = String(format: "%.2f", count)
+        saveData.set(count, forKey: "time")
+
+    
     }
+    
+    
+    
+    
+    
     func checkBackground() {
         if judge == true {
             //バックグラウンドへの移行を確認
-            if let _ = timer {
+            if timer.isValid {
                 timerIsBackground = true
             }
         }
     }
     
-    func setCurrentTimer(_ elapsedTime:Int) {
+    func setCurrentTimer(_ elapsedTime:Float) {
         if judge == true {
             //残り時間から引数(バックグラウンドでの経過時間)を足す
             count += elapsedTime
             label.text = "\(count)"
             //再びタイマーを起動
-            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
         }
     }
     
     func deleteTimer() {
         if judge == true {
             //起動中のタイマーを破棄
-            if let _ = timer {
+            if timer.isValid {
                 timer.invalidate()
             }
         }
@@ -111,7 +122,7 @@ class StopWatchViewController: UIViewController, backgroundTimerDelegate {
 
     @IBAction func saveMemo() {
         //UserDefaultsに書き込み
-        saveData.set(label.text, forKey: "time")
+        saveData.set(count, forKey: "time")
     }
 }
     

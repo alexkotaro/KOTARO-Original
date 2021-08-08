@@ -9,7 +9,7 @@ import UIKit
 
 //デリゲート用の変数、関数
 protocol backgroundTimerDelegate: class {
-    func setCurrentTimer(_ elapsedTime:Int)
+    func setCurrentTimer(_ elapsedTime:Float)
     func deleteTimer()
     func checkBackground()
     var timerIsBackground:Bool { set get }
@@ -54,7 +54,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let date1 = ud.value(forKey: "date1") as! Date
             let date2 = Date()
             let elapsedTime = calender.dateComponents([.second], from: date1, to: date2).second!
-            delegate?.setCurrentTimer(elapsedTime)
+            delegate?.setCurrentTimer(Float(elapsedTime))
         }
     }
 
